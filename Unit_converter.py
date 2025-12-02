@@ -16,9 +16,15 @@ while True:
         case 1:
             Kg = float(input("Enter weight in KG: "))
             Lbs = Kg * 2.20462
-            print("=========================||")
+            print("=========================|")
             print("👉 ",Kg, "KG 🟰 ", format(Lbs, ".2f"), "Lbs")
-            print("=========================||")
+            print("=========================|")
+        case 2:
+            Lbs = float(input("Enter Weight in Lbs :"))
+            Kg = Lbs / 2.20462
+            print("=========================|")
+            print("👉 ",Lbs, "Lbs 🟰 ", format(Kg, ".2f"), "Kg")
+            print("=========================|")
         case 5:
             print("Sitaram 👋")
             break
