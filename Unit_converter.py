@@ -25,6 +25,12 @@ while True:
             print("=========================|")
             print("👉 ",Lbs, "Lbs 🟰 ", format(Kg, ".2f"), "Kg")
             print("=========================|")
+        case 3:
+            Km = float(input("Enter distance in Km: "))
+            Miles = Km * 0.621371
+            print("=========================|")
+            print("👉 ",Km, "Km 🟰 ", format(Miles, ".2f"), "Miles")
+            print("=========================|")
         case 5:
             print("Sitaram 👋")
             break
